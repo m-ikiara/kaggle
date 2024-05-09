@@ -50,6 +50,7 @@ def generate_forest():
     output.to_csv('submission.csv', index=False)
     print("[INFO] Your submission was successfully saved!")
     
-generate_forest()
-submission = pd.read_csv("/kaggle/working/submission.csv")
-submission.head()
+if __name__ == "__main__":
+    generate_forest()
+    submission = pd.read_csv("/kaggle/working/submission.csv")
+    submission.head()

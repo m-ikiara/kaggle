@@ -13,3 +13,14 @@ Description:
 import numpy as np
 import pandas as pd
 
+
+data = {
+    'train_data': pd.read_csv("/kaggle/input/titanic/train.csv"),
+    'test_data': pd.read_csv("/kaggle/input/titanic/test.csv"),
+}
+
+
+def display_data():
+    """Output the data contained in file."""
+    for k in data:
+        data[k].head()
