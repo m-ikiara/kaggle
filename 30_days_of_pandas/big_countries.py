@@ -1,6 +1,6 @@
 """30 Days of Pandas.
 
-~~~~BiG CoUnTrIeS~~~~
+~~~~Day 01: BiG CoUnTrIeS~~~~
 Consider the Table below:
     +-------------+---------+
     | Column Name | Type    |
